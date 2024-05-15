@@ -11,6 +11,9 @@
     "type": "git",
     "url": "git+https://github.com/JakobLierman/eslint-config.git"
   },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "bugs": {
     "url": "https://github.com/JakobLierman/eslint-config/issues"
   },
@@ -19,7 +22,7 @@
     "eslint-config"
   ],
   "engines": {
-    "node": ">=v20"
+    "node": ">=20"
   },
   "files": [
     "index.js",
