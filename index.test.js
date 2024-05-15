@@ -1,5 +1,5 @@
-const { describe, test, expect } = require('@jest/globals');
-const { ESLint } = require('eslint');
+import { describe, expect, test } from 'vitest';
+import { ESLint } from 'eslint';
 
 describe('ESLint Configuration', () => {
   test('Should load ESLint config without errors', async () => {
