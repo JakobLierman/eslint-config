@@ -1,3 +1,10 @@
+## [0.1.0](https://github.com/JakobLierman/eslint-config/compare/v0.0.2...v0.1.0) (2024-05-18)
+
+### Features
+
+- extend vercel style guide ([2aeda77](https://github.com/JakobLierman/eslint-config/commit/2aeda770c4da663dc8a262ad87e83fa65d741676))
+- finetune rules ([1508d79](https://github.com/JakobLierman/eslint-config/commit/1508d797f5b4d6873dc351e27129591656febb2f))
+
 ## [0.0.2](https://github.com/JakobLierman/eslint-config/compare/v0.0.1...v0.0.2) (2024-01-22)
 
 ### Bug Fixes
