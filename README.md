@@ -82,6 +82,5 @@ This configuration includes settings for:
 - Next.js support (`@jakoblierman/eslint-config/nextjs`)
 - Jest support (`@jakoblierman/eslint-config/jest`)
 - Vitest support (`@jakoblierman/eslint-config/vitest`)
-- Playwright support (`@jakoblierman/eslint-config/playwright`)
 
 Feel free to customize the configuration by extending or overriding rules to suit your project's needs.

@@ -8,8 +8,6 @@ module.exports = {
     'plugin:react/jsx-runtime',
     'plugin:react-hooks/recommended',
     'plugin:xss/recommended',
-    require.resolve('@vercel/style-guide/eslint/browser'),
-    require.resolve('@vercel/style-guide/eslint/react'),
   ],
   plugins: ['react', 'xss'],
   settings: {
@@ -21,5 +19,22 @@ module.exports = {
     ecmaFeatures: {
       jsx: true, // Allows for the parsing of JSX
     },
+  },
+  rules: {
+    'react/function-component-definition': [
+      'error',
+      {
+        namedComponents: 'arrow-function',
+        unnamedComponents: 'arrow-function',
+      },
+    ],
+    'react/jsx-filename-extension': [
+      'warn',
+      {
+        extensions: ['.jsx', '.tsx'],
+        ignoreFilesWithoutCode: true,
+      },
+    ],
+    'react/require-default-props': 'off',
   },
 };
