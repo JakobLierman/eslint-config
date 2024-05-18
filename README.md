@@ -31,18 +31,20 @@ module.exports = {
 };
 ```
 
-### Add NPM scripts (optional)
+### Add NPM script (optional)
 
-Add the following scripts to your `package.json`:
+Add the following script to your `package.json`:
 
 ```json
 {
   "scripts": {
-    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
-    "lint:fix": "eslint . --ext .js,.jsx,.ts,.tsx --fix"
+    "lint": "eslint ."
   }
 }
 ```
+
+You can now run ESLint using the following command: `npm run lint`, `yarn lint`, or `pnpm lint`.
+If you want to fix all auto-fixable problems, run `npm run lint -- --fix`, `yarn lint --fix`, or `pnpm lint --fix`.
 
 ### Add commit hook (optional)
 
@@ -64,7 +66,7 @@ Extend your `.lintstagedrc` file with the following:
 Run lint-staged on every commit by configuring a Husky hook:
 
 ```bash
-npx husky add .husky/pre-commit "npx lint-staged"
+echo "npx lint-staged" > .husky/pre-commit
 ```
 
 Now, your project will use this configuration for ESLint linting.
