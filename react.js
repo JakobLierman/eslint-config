@@ -36,5 +36,6 @@ module.exports = {
       },
     ],
     'react/require-default-props': 'off',
+    'unicorn/consistent-function-scoping': 'off',
   },
 };
