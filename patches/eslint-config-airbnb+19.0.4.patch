@@ -1,0 +1,13 @@
+diff --git a/node_modules/eslint-config-airbnb/whitespaceRules.js b/node_modules/eslint-config-airbnb/whitespaceRules.js
+index 7c4cf69..b2b6ef9 100644
+--- a/node_modules/eslint-config-airbnb/whitespaceRules.js
++++ b/node_modules/eslint-config-airbnb/whitespaceRules.js
+@@ -45,7 +45,7 @@ module.exports = [
+   'spaced-comment',
+   'switch-colon-spacing',
+   'template-tag-spacing',
+-  'import/newline-after-import',
++  'import-x/newline-after-import',
+ 
+   // eslint-plugin-react rules
+   'react/jsx-child-element-spacing',
