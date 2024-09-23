@@ -22,13 +22,15 @@ pnpm add --save-dev eslint @jakoblierman/eslint-config
 
 ## Usage
 
-Create an `.eslintrc.js` file in your project's root and extend this configuration:
+Create an `eslint.config.js` file in your project's root and extend this configuration:
 
 ```javascript
-module.exports = {
-  extends: ['@jakoblierman/eslint-config'],
-  // Add additional rules or overrides if needed
-};
+import { jakoblierman } from '@jakoblierman/eslint-config';
+
+export default [
+  ...jakoblierman.configs.base,
+  // Add additional configuration if needed
+];
 ```
 
 ### Add NPM script (optional)
@@ -78,9 +80,9 @@ This configuration includes settings for:
 - Recommended ESLint rules
 - Prettier formatting
 - TypeScript support
-- React support (`@jakoblierman/eslint-config/react`)
-- Next.js support (`@jakoblierman/eslint-config/nextjs`)
-- Jest support (`@jakoblierman/eslint-config/jest`)
-- Vitest support (`@jakoblierman/eslint-config/vitest`)
+- React support (`jakoblierman.configs.react`)
+- Next.js support (`jakoblierman.configs.nextjs`)
+- Jest support (`jakoblierman.configs.jest`)
+- Vitest support (`jakoblierman.configs.vitest`)
 
 Feel free to customize the configuration by extending or overriding rules to suit your project's needs.
