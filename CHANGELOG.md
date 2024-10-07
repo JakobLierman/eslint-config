@@ -1,3 +1,16 @@
+## [0.3.0](https://github.com/JakobLierman/eslint-config/compare/v0.2.1...v0.3.0) (2024-10-07)
+
+### Features
+
+- add turborepo config ([4d19a9e](https://github.com/JakobLierman/eslint-config/commit/4d19a9e4bbcb5818abe2b82f613028dbdf85cffd))
+
+### Bug Fixes
+
+- config files ([86e8e3e](https://github.com/JakobLierman/eslint-config/commit/86e8e3e4b97a21e52aeb8ef36c3a5d4a387c5945))
+- filename extensions ([3f5da30](https://github.com/JakobLierman/eslint-config/commit/3f5da30546bc83a8901d519ab11d9d601215aeaa))
+- node builtins warning ([9549240](https://github.com/JakobLierman/eslint-config/commit/95492409b4a7aa9a18cca07180c6e4c8682cb961))
+- undefined returns allowed ([2afe61b](https://github.com/JakobLierman/eslint-config/commit/2afe61b5d3fcc98aec33d19e990bb6ab53434927))
+
 ## [0.2.1](https://github.com/JakobLierman/eslint-config/compare/v0.2.0...v0.2.1) (2024-09-23)
 
 ## [0.2.0](https://github.com/JakobLierman/eslint-config/compare/v0.1.0...v0.2.0) (2024-05-19)
