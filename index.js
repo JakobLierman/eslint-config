@@ -50,7 +50,7 @@ module.exports = {
         devDependencies: [
           '**/test/*',
           '**/*.{test,spec}.{js,mjs,cjs,ts,mts,cts}',
-          '{vitest,jest}.config.{js,mjs,cjs,ts,mts,cts}',
+          '*.config.{js,mjs,cjs,ts,mts,cts}',
         ],
       },
     ],
