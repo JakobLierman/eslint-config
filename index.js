@@ -40,6 +40,7 @@ module.exports = {
     'import/no-default-export': 'off',
     'import/no-unresolved': 'error',
     'n/no-missing-import': 'off', // Cannot handle Typescript path aliases
+    'n/no-unsupported-features/node-builtins': 'warn',
     'newline-before-return': 'error',
     'no-secrets/no-secrets': 'error',
     'unused-imports/no-unused-imports': 'error',
@@ -49,7 +50,7 @@ module.exports = {
         devDependencies: [
           '**/test/*',
           '**/*.{test,spec}.{js,mjs,cjs,ts,mts,cts}',
-          '{vitest,jest}.config.{js,mjs,cjs,ts,mts,cts}',
+          '*.config.{js,mjs,cjs,ts,mts,cts}',
         ],
       },
     ],
@@ -65,6 +66,7 @@ module.exports = {
     'unicorn/filename-case': 'off',
     'filenames-simple/naming-convention': ['error', { rule: 'kebab-case' }],
     'unicorn/no-array-reduce': 'off',
+    'unicorn/no-useless-undefined': 'off',
     'unicorn/prevent-abbreviations': [
       'warn',
       {
@@ -88,6 +90,20 @@ module.exports = {
     'import/resolver': {
       typescript: {
         alwaysTryTypes: true, // always try to resolve types under `<root>@types` directory even it doesn't contain any source code, like `@types/unist`
+      },
+      'filenames-simple': {
+        allowedExtensions: [
+          '.js',
+          '.ts',
+          '.d.ts',
+          '.cjs',
+          '.mjs',
+          '.mts',
+          '.cts',
+          '.jsx',
+          '.tsx',
+          '.vue',
+        ],
       },
     },
   },
