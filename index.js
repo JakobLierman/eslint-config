@@ -66,6 +66,7 @@ module.exports = {
     'unicorn/filename-case': 'off',
     'filenames-simple/naming-convention': ['error', { rule: 'kebab-case' }],
     'unicorn/no-array-reduce': 'off',
+    'unicorn/no-useless-undefined': 'off',
     'unicorn/prevent-abbreviations': [
       'warn',
       {
