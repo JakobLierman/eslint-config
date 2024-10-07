@@ -40,6 +40,7 @@ module.exports = {
     'import/no-default-export': 'off',
     'import/no-unresolved': 'error',
     'n/no-missing-import': 'off', // Cannot handle Typescript path aliases
+    'n/no-unsupported-features/node-builtins': 'warn',
     'newline-before-return': 'error',
     'no-secrets/no-secrets': 'error',
     'unused-imports/no-unused-imports': 'error',
