@@ -1,3 +1,15 @@
+## [0.4.0](https://github.com/JakobLierman/eslint-config/compare/v0.3.0...v0.4.0) (2024-10-08)
+
+### Features
+
+- disable abbreviations rule ([cba6a94](https://github.com/JakobLierman/eslint-config/commit/cba6a94ab0d97e5dd572efc689225be5c2fafe24))
+- disable switch case braces rule ([4ab89a9](https://github.com/JakobLierman/eslint-config/commit/4ab89a995956f610ad12a80175dde853126fc28b))
+- finetune rules ([cdf07d2](https://github.com/JakobLierman/eslint-config/commit/cdf07d23b2d5cedfdcbdd48705fa7129ca68290e))
+
+### Bug Fixes
+
+- filenames extensions config ([5933faa](https://github.com/JakobLierman/eslint-config/commit/5933faae75ff69760b3a933c40104169c0572ad9))
+
 ## [0.3.0](https://github.com/JakobLierman/eslint-config/compare/v0.2.1...v0.3.0) (2024-10-07)
 
 ### Features
