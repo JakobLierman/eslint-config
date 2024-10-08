@@ -67,43 +67,45 @@ module.exports = {
     'filenames-simple/naming-convention': ['error', { rule: 'kebab-case' }],
     'unicorn/no-array-reduce': 'off',
     'unicorn/no-useless-undefined': 'off',
-    'unicorn/prevent-abbreviations': [
-      'warn',
+    'unicorn/switch-case-braces': 'off',
+    'unicorn/prevent-abbreviations': 'off',
+    'no-restricted-syntax': [
+      'error',
       {
-        replacements: {
-          acc: false,
-          dev: false,
-          env: false,
-          params: false,
-          props: false,
-          ref: false,
-          var: false,
-        },
+        selector: 'LabeledStatement',
+        message:
+          'Labels are a form of GOTO; using them makes code confusing and hard to maintain and understand.',
+      },
+      {
+        selector: 'WithStatement',
+        message:
+          '`with` is disallowed in strict mode because it makes code impossible to predict and optimize.',
       },
     ],
     'eslint-comments/require-description': 'warn',
+    'no-void': ['warn', { allowAsStatement: true }],
     // TESTING: TODO: Remove this rule
     'n/no-extraneous-import': 'off',
     'n/no-extraneous-require': 'off',
   },
   settings: {
+    'filenames-simple': {
+      allowedExtensions: [
+        '.js',
+        '.ts',
+        '.d.ts',
+        '.cjs',
+        '.mjs',
+        '.mts',
+        '.cts',
+        '.jsx',
+        '.tsx',
+        '.vue',
+      ],
+    },
     'import/resolver': {
       typescript: {
         alwaysTryTypes: true, // always try to resolve types under `<root>@types` directory even it doesn't contain any source code, like `@types/unist`
-      },
-      'filenames-simple': {
-        allowedExtensions: [
-          '.js',
-          '.ts',
-          '.d.ts',
-          '.cjs',
-          '.mjs',
-          '.mts',
-          '.cts',
-          '.jsx',
-          '.tsx',
-          '.vue',
-        ],
       },
     },
   },
