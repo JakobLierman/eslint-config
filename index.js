@@ -87,23 +87,23 @@ module.exports = {
     'n/no-extraneous-require': 'off',
   },
   settings: {
+    'filenames-simple': {
+      allowedExtensions: [
+        '.js',
+        '.ts',
+        '.d.ts',
+        '.cjs',
+        '.mjs',
+        '.mts',
+        '.cts',
+        '.jsx',
+        '.tsx',
+        '.vue',
+      ],
+    },
     'import/resolver': {
       typescript: {
         alwaysTryTypes: true, // always try to resolve types under `<root>@types` directory even it doesn't contain any source code, like `@types/unist`
-      },
-      'filenames-simple': {
-        allowedExtensions: [
-          '.js',
-          '.ts',
-          '.d.ts',
-          '.cjs',
-          '.mjs',
-          '.mts',
-          '.cts',
-          '.jsx',
-          '.tsx',
-          '.vue',
-        ],
       },
     },
   },
