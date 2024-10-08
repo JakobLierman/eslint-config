@@ -67,20 +67,7 @@ module.exports = {
     'filenames-simple/naming-convention': ['error', { rule: 'kebab-case' }],
     'unicorn/no-array-reduce': 'off',
     'unicorn/no-useless-undefined': 'off',
-    'unicorn/prevent-abbreviations': [
-      'warn',
-      {
-        replacements: {
-          acc: false,
-          dev: false,
-          env: false,
-          params: false,
-          props: false,
-          ref: false,
-          var: false,
-        },
-      },
-    ],
+    'unicorn/prevent-abbreviations': 'off',
     'eslint-comments/require-description': 'warn',
     // TESTING: TODO: Remove this rule
     'n/no-extraneous-import': 'off',
