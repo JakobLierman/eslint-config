@@ -1,3 +1,13 @@
+## [0.5.0](https://github.com/JakobLierman/eslint-config/compare/v0.4.0...v0.5.0) (2024-10-17)
+
+### Features
+
+- test file only rules ([d72bbcf](https://github.com/JakobLierman/eslint-config/commit/d72bbcf83b637e24f8b0f14caeb92d5267795e7b))
+
+### Bug Fixes
+
+- ignore build folders ([ddb75ed](https://github.com/JakobLierman/eslint-config/commit/ddb75edcb0391dd88cb8b06ce1e29b015b35ccb6))
+
 ## [0.4.0](https://github.com/JakobLierman/eslint-config/compare/v0.3.0...v0.4.0) (2024-10-08)
 
 ### Features
