@@ -132,5 +132,11 @@ module.exports = {
         '@typescript-eslint/no-inferrable-types': 'off',
       },
     },
+    {
+      files: ['*.test.*'], // Test files
+      rules: {
+        '@typescript-eslint/unbound-method': 'off',
+      },
+    },
   ],
 };
