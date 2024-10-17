@@ -33,6 +33,15 @@ module.exports = {
     '@stylistic',
     '@stylistic/migrate',
   ],
+  ignorePatterns: [
+    'node_modules/',
+    'dist/',
+    'coverage/',
+    'build/',
+    'out/',
+    'public/',
+    'tmp/',
+  ], // TODO: Update to flat config: https://eslint.org/docs/latest/use/configure/ignore
   rules: {
     'dot-notation': ['error', { allowKeywords: false }],
     'import/extensions': 'off',
