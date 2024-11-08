@@ -35,6 +35,7 @@ module.exports = {
         ignoreFilesWithoutCode: true,
       },
     ],
+    'react/jsx-props-no-spreading': 'off',
     'react/require-default-props': 'off',
     'unicorn/consistent-function-scoping': 'off',
   },
