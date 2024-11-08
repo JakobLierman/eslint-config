@@ -48,6 +48,7 @@ module.exports = {
     'import/order': ['error'],
     'import/no-default-export': 'off',
     'import/no-unresolved': 'error',
+    'import/prefer-default-export': 'off', // Well, I simply don't prefer it
     'n/no-missing-import': 'off', // Cannot handle Typescript path aliases
     'n/no-unsupported-features/node-builtins': 'warn',
     'newline-before-return': 'error',
@@ -60,6 +61,7 @@ module.exports = {
           '**/test/*',
           '**/*.{test,spec}.{js,mjs,cjs,ts,mts,cts}',
           '*.config.{js,mjs,cjs,ts,mts,cts}',
+          '*tailwind*.{js,mjs,cjs,ts,mts,cts}',
         ],
       },
     ],
