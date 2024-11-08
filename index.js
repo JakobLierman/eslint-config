@@ -61,6 +61,7 @@ module.exports = {
           '**/test/*',
           '**/*.{test,spec}.{js,mjs,cjs,ts,mts,cts}',
           '*.config.{js,mjs,cjs,ts,mts,cts}',
+          '*tailwind*.{js,mjs,cjs,ts,mts,cts}',
         ],
       },
     ],
