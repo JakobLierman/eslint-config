@@ -1,3 +1,9 @@
+## 0.6.0 (2024-11-08)
+
+- chore: upgrade packages ([778a11e](https://github.com/JakobLierman/eslint-config/commit/778a11e))
+- fix: tailwind config no-extraneous-dependencies ([8ba9437](https://github.com/JakobLierman/eslint-config/commit/8ba9437))
+- feat: added some rules ([165d9b9](https://github.com/JakobLierman/eslint-config/commit/165d9b9))
+
 ## [0.5.0](https://github.com/JakobLierman/eslint-config/compare/v0.4.0...v0.5.0) (2024-10-17)
 
 ### Features
