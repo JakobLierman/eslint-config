@@ -1,3 +1,8 @@
+## <small>0.6.1 (2024-12-03)</small>
+
+- chore: upgrade packages ([079b5b2](https://github.com/JakobLierman/eslint-config/commit/079b5b2))
+- fix: turborepo integration ([187d656](https://github.com/JakobLierman/eslint-config/commit/187d656))
+
 ## 0.6.0 (2024-11-08)
 
 - chore: upgrade packages ([778a11e](https://github.com/JakobLierman/eslint-config/commit/778a11e))
