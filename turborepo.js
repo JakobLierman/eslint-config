@@ -11,7 +11,7 @@ module.exports = {
   rules: {
     'turbo/no-undeclared-env-vars': ['error', { allowList: ['CI', 'TZ'] }],
     'import/no-extraneous-dependencies': [
-      ...baseRule,
+      baseRule[0],
       {
         ...baseRule[1],
         packageDir: [
