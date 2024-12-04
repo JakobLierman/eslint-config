@@ -1,3 +1,7 @@
+## <small>0.6.3 (2024-12-04)</small>
+
+- fix: monorepo no-extraneous-dependencies ([d1468a2](https://github.com/JakobLierman/eslint-config/commit/d1468a2))
+
 ## <small>0.6.2 (2024-12-04)</small>
 
 - fix: monorepo no-extraneous-dependencies ([43c3b19](https://github.com/JakobLierman/eslint-config/commit/43c3b19))
