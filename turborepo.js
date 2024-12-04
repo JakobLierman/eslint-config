@@ -1,4 +1,3 @@
-const path = require('node:path');
 const { rules: baseRules } = require('./index');
 
 const baseRule = baseRules['import/no-extraneous-dependencies'];
@@ -14,10 +13,7 @@ module.exports = {
       baseRule[0],
       {
         ...baseRule[1],
-        packageDir: [
-          __dirname,
-          path.join(__dirname, '../..'), // Package directories for monorepos
-        ],
+        packageDir: ['.', '../..'], // Package directories for monorepos
       },
     ],
   },
