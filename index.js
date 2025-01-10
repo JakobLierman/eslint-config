@@ -142,6 +142,10 @@ module.exports = {
             selector: 'enumMember',
           },
         ],
+        '@typescript-eslint/no-confusing-void-expression': [
+          'error',
+          { ignoreArrowShorthand: true, ignoreVoidOperator: true },
+        ],
         '@typescript-eslint/no-inferrable-types': 'off',
       },
     },
