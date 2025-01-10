@@ -1,3 +1,10 @@
+# Changelog
+
+## 0.7.0 (2025-01-10)
+
+- feat: finetune no-confusing-void-expression ([1123e87](https://github.com/JakobLierman/eslint-config/commit/1123e87))
+- chore: upgrade packages ([229e2ab](https://github.com/JakobLierman/eslint-config/commit/229e2ab))
+
 ## <small>0.6.3 (2024-12-04)</small>
 
 - fix: monorepo no-extraneous-dependencies ([d1468a2](https://github.com/JakobLierman/eslint-config/commit/d1468a2))
