@@ -1,0 +1,28 @@
+{
+  "ignore": {
+    "@typescript-eslint/eslint-plugin": {
+      "versions": ">=8",
+      "reason": "ESLint 9"
+    },
+    "@typescript-eslint/parser": {
+      "versions": ">=8",
+      "reason": "ESLint 9"
+    },
+    "eslint-plugin-prefer-arrow-functions": {
+      "versions": ">=3.5",
+      "reason": "ESLint 9"
+    },
+    "eslint-plugin-unused-imports": {
+      "versions": ">=3.3",
+      "reason": "ESLint 9"
+    },
+    "eslint": {
+      "versions": ">=9",
+      "reason": "Not ready for ESLint 9 yet"
+    },
+    "@types/eslint": {
+      "versions": ">=9",
+      "reason": "ESLint 9"
+    }
+  }
+}
