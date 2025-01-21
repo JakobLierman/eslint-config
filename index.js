@@ -81,6 +81,7 @@ module.exports = {
     'unicorn/no-array-reduce': 'off',
     'unicorn/no-useless-undefined': 'off',
     'unicorn/switch-case-braces': 'off',
+    'unicorn/prefer-global-this': 'off',
     'unicorn/prevent-abbreviations': 'off',
     'no-restricted-syntax': [
       'error',
