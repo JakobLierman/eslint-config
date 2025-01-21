@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.8.0 (2025-01-21)
+
+- ci: vitest reporter ([90cb975](https://github.com/JakobLierman/eslint-config/commit/90cb975))
+- chore: upgrade packages ([90f228e](https://github.com/JakobLierman/eslint-config/commit/90f228e))
+- feat: remove global this enforcement ([dc2c501](https://github.com/JakobLierman/eslint-config/commit/dc2c501))
+
 ## 0.7.0 (2025-01-10)
 
 - feat: finetune no-confusing-void-expression ([1123e87](https://github.com/JakobLierman/eslint-config/commit/1123e87))
