@@ -6,7 +6,7 @@ import { configDefaults, defineConfig } from 'vitest/config';
 export default defineConfig({
   test: {
     reporters: process.env.GITHUB_ACTIONS
-      ? ['basic', 'github-actions']
+      ? [['default', { summary: false }], 'github-actions']
       : 'default',
     exclude: [...configDefaults.exclude, '**/e2e/**'],
     env: {
