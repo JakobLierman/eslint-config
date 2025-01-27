@@ -98,9 +98,6 @@ module.exports = {
     ],
     'eslint-comments/require-description': 'warn',
     'no-void': ['warn', { allowAsStatement: true }],
-    // TESTING: TODO: Remove this rule
-    'n/no-extraneous-import': 'off',
-    'n/no-extraneous-require': 'off',
   },
   settings: {
     'filenames-simple': {
