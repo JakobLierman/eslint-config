@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.9.0 (2025-02-19)
+
+- chore: upgrade packages ([ee1d0a6](https://github.com/JakobLierman/eslint-config/commit/ee1d0a6))
+- chore: upgrade packages ([15a95bd](https://github.com/JakobLierman/eslint-config/commit/15a95bd))
+- feat: disable no-case-declarations ([592f537](https://github.com/JakobLierman/eslint-config/commit/592f537))
+- fix: remove temporary rules ([a4d599a](https://github.com/JakobLierman/eslint-config/commit/a4d599a))
+
 ## 0.8.0 (2025-01-21)
 
 - ci: vitest reporter ([90cb975](https://github.com/JakobLierman/eslint-config/commit/90cb975))
