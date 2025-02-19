@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.10.0 (2025-02-19)
+
+- feat: remove airbnb configuration ([051c998](https://github.com/JakobLierman/eslint-config/commit/051c998))
+
 ## 0.9.0 (2025-02-19)
 
 - chore: upgrade packages ([ee1d0a6](https://github.com/JakobLierman/eslint-config/commit/ee1d0a6))
