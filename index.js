@@ -52,6 +52,7 @@ module.exports = {
     'n/no-missing-import': 'off', // Cannot handle Typescript path aliases
     'n/no-unsupported-features/node-builtins': 'warn',
     'newline-before-return': 'error',
+    'no-case-declarations': 'off', // Too strict, even for my liking
     'no-secrets/no-secrets': 'error',
     'unused-imports/no-unused-imports': 'error',
     'import/no-extraneous-dependencies': [
@@ -98,9 +99,6 @@ module.exports = {
     ],
     'eslint-comments/require-description': 'warn',
     'no-void': ['warn', { allowAsStatement: true }],
-    // TESTING: TODO: Remove this rule
-    'n/no-extraneous-import': 'off',
-    'n/no-extraneous-require': 'off',
   },
   settings: {
     'filenames-simple': {
