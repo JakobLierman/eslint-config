@@ -24,7 +24,6 @@ module.exports = {
     'import',
     'unused-imports',
     'regexp',
-    'no-secrets',
     'jsdoc',
     'prefer-arrow-functions',
     'filenames-simple',
@@ -44,7 +43,7 @@ module.exports = {
   rules: {
     'dot-notation': ['error', { allowKeywords: false }],
     'import/extensions': 'off',
-    'import/order': ['error'],
+    'import/order': ['error'], // TODO: Finetune (https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/order.md)
     'import/no-default-export': 'off',
     'import/no-unresolved': 'error',
     'import/prefer-default-export': 'off', // Well, I simply don't prefer it
@@ -52,7 +51,6 @@ module.exports = {
     'n/no-unsupported-features/node-builtins': 'warn',
     'newline-before-return': 'error',
     'no-case-declarations': 'off', // Too strict, even for my liking
-    'no-secrets/no-secrets': 'error',
     'unused-imports/no-unused-imports': 'error',
     'import/no-extraneous-dependencies': [
       'error',
