@@ -1,5 +1,9 @@
 # Changelog
 
+## <small>0.11.1 (2025-03-02)</small>
+
+- fix: turborepo configuration upgrade ([85b99d5](https://github.com/JakobLierman/eslint-config/commit/85b99d5))
+
 ## 0.11.0 (2025-03-02)
 
 - chore: upgrade packages ([43dc148](https://github.com/JakobLierman/eslint-config/commit/43dc148))
