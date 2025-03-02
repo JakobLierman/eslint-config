@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.11.0 (2025-03-02)
+
+- chore: upgrade packages ([43dc148](https://github.com/JakobLierman/eslint-config/commit/43dc148))
+- feat: disable secrets check ([ac1c37f](https://github.com/JakobLierman/eslint-config/commit/ac1c37f))
+
 ## 0.10.0 (2025-02-19)
 
 - feat: remove airbnb configuration ([051c998](https://github.com/JakobLierman/eslint-config/commit/051c998))
