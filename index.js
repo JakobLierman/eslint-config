@@ -143,6 +143,10 @@ module.exports = {
           { ignoreArrowShorthand: true, ignoreVoidOperator: true },
         ],
         '@typescript-eslint/no-inferrable-types': 'off',
+        '@typescript-eslint/no-misused-promises': [
+          'error',
+          { checksVoidReturn: { attributes: false } },
+        ],
       },
     },
     {
