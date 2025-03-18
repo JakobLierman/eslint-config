@@ -1,5 +1,10 @@
 # Changelog
 
+## <small>0.11.2 (2025-03-18)</small>
+
+- chore: upgrade packages ([df452d9](https://github.com/JakobLierman/eslint-config/commit/df452d9))
+- fix: misused promises attributes ([9b1c860](https://github.com/JakobLierman/eslint-config/commit/9b1c860))
+
 ## <small>0.11.1 (2025-03-02)</small>
 
 - fix: turborepo configuration upgrade ([85b99d5](https://github.com/JakobLierman/eslint-config/commit/85b99d5))
