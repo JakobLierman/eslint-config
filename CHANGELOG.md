@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.12.0 (2025-04-10)
+
+- chore: upgrade packages ([94b10a0](https://github.com/JakobLierman/eslint-config/commit/94b10a0))
+- feat: add tanstack query config ([9de6963](https://github.com/JakobLierman/eslint-config/commit/9de6963))
+
 ## <small>0.11.2 (2025-03-18)</small>
 
 - chore: upgrade packages ([df452d9](https://github.com/JakobLierman/eslint-config/commit/df452d9))
