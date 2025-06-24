@@ -1,6 +1,6 @@
 {
   "name": "@jakoblierman/eslint-config",
-  "version": "0.12.0",
+  "version": "0.13.0",
   "description": "Personal ESLint configuration",
   "author": {
     "name": "Jakob Lierman",

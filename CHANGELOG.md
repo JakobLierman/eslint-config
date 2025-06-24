@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.13.0 (2025-06-24)
+
+- feat: allow jsdoc defaults ([11377eb](https://github.com/JakobLierman/eslint-config/commit/11377eb))
+- chore: upgrade packages ([4fcd7ee](https://github.com/JakobLierman/eslint-config/commit/4fcd7ee))
+- fix: remove tanstack ([2dd8e8c](https://github.com/JakobLierman/eslint-config/commit/2dd8e8c))
+
 ## 0.12.0 (2025-04-10)
 
 - chore: upgrade packages ([94b10a0](https://github.com/JakobLierman/eslint-config/commit/94b10a0))
