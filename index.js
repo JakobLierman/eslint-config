@@ -148,6 +148,11 @@ module.exports = {
           'error',
           { checksVoidReturn: { attributes: false } },
         ],
+        'jsdoc/no-types': 'warn', // Types not needed in JSDoc comments, TypeScript does this
+        'jsdoc/no-undefined-types': 'off', // Types not needed in JSDoc comments, TypeScript does this
+        'jsdoc/require-param-type': 'off', // Not needed, TypeScript does this
+        'jsdoc/require-property-type': 'off', // Not needed, TypeScript does this
+        'jsdoc/require-returns-type': 'off', // Not needed, TypeScript does this
       },
     },
     {
