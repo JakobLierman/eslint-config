@@ -1,5 +1,10 @@
 # Changelog
 
+## <small>0.14.1 (2025-06-26)</small>
+
+- fix: disable jsdoc destructured params check ([51fd79e](https://github.com/JakobLierman/eslint-config/commit/51fd79e))
+- chore: upgrade packages ([36dc402](https://github.com/JakobLierman/eslint-config/commit/36dc402))
+
 ## 0.14.0 (2025-06-26)
 
 - chore: upgrade packages ([b867f5d](https://github.com/JakobLierman/eslint-config/commit/b867f5d))
