@@ -70,8 +70,8 @@
   },
   "devDependencies": {
     "@commitlint/cli": "^19.8.1",
-    "@jakoblierman/commitlint-config": "^2.0.0",
-    "@jakoblierman/prettier-config": "^0.2.1",
+    "@jakoblierman/commitlint-config": "^2.0.1",
+    "@jakoblierman/prettier-config": "^0.2.3",
     "@release-it/conventional-changelog": "^10.0.1",
     "@types/eslint": "^8.56.12",
     "@vitest/coverage-v8": "^3.2.4",

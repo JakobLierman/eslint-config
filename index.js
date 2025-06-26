@@ -48,6 +48,8 @@ module.exports = {
     'import/no-unresolved': 'error',
     'import/prefer-default-export': 'off', // Well, I simply don't prefer it
     'jsdoc/no-defaults': 'off', // Some editors like this syntax, and extra documentation can't hurt
+    'jsdoc/require-param': ['warn', { checkDestructured: false }], // Disable destructured checks, as they are not always necessary
+    'jsdoc/check-param-names': ['warn', { checkDestructured: false }], // Disable destructured checks, as they are not always necessary
     'n/no-missing-import': 'off', // Cannot handle Typescript path aliases
     'n/no-unsupported-features/node-builtins': 'warn',
     'newline-before-return': 'error',
@@ -67,6 +69,7 @@ module.exports = {
       },
     ],
     'filenames-simple/named-export': 'off',
+    'filenames-simple/naming-convention': ['error', { rule: 'kebab-case' }],
     '@stylistic/padding-line-between-statements': [
       'error',
       { blankLine: 'always', prev: '*', next: 'return' },
@@ -76,7 +79,6 @@ module.exports = {
       { returnStyle: 'implicit' },
     ],
     'unicorn/filename-case': 'off',
-    'filenames-simple/naming-convention': ['error', { rule: 'kebab-case' }],
     'unicorn/no-array-reduce': 'off',
     'unicorn/no-useless-undefined': 'off',
     'unicorn/switch-case-braces': 'off',
