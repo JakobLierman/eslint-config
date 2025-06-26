@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.14.0 (2025-06-26)
+
+- chore: upgrade packages ([b867f5d](https://github.com/JakobLierman/eslint-config/commit/b867f5d))
+- feat: jsdoc typescript ([e7400ac](https://github.com/JakobLierman/eslint-config/commit/e7400ac))
+
 ## 0.13.0 (2025-06-24)
 
 - feat: allow jsdoc defaults ([11377eb](https://github.com/JakobLierman/eslint-config/commit/11377eb))
