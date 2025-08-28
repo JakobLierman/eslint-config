@@ -1,5 +1,10 @@
 # Changelog
 
+## <small>0.14.2 (2025-08-28)</small>
+
+- fix: nextjs typescript ([c2759f1](https://github.com/JakobLierman/eslint-config/commit/c2759f1))
+- chore: upgrade packages ([2fbe287](https://github.com/JakobLierman/eslint-config/commit/2fbe287))
+
 ## <small>0.14.1 (2025-06-26)</small>
 
 - fix: disable jsdoc destructured params check ([51fd79e](https://github.com/JakobLierman/eslint-config/commit/51fd79e))
