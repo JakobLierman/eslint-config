@@ -1,5 +1,9 @@
 # Changelog
 
+## <small>0.14.3 (2025-08-28)</small>
+
+- revert: nextjs typescript ([a5bab33](https://github.com/JakobLierman/eslint-config/commit/a5bab33))
+
 ## <small>0.14.2 (2025-08-28)</small>
 
 - fix: nextjs typescript ([c2759f1](https://github.com/JakobLierman/eslint-config/commit/c2759f1))
